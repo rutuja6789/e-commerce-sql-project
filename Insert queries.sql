@@ -9,7 +9,7 @@ INSERT INTO Users_data (user_id, username, password, email) VALUES
 (7, 'david.brown', 'David#123$', 'david.brown@icloud.com'),
 (8, 'alice.green', 'Green123$', 'alice.green@company.com'),
 (9, 'ben.watson', 'Watson#234%', 'ben.watson@business.com'),
-(10, 'carla.mendes', 'Cmendes@5678', 'carla.mendes@mail.com');
+(10, 'carla.mendes', 'Cmendes@5678', 'carla.mendes@mail.com')
 
 
 INSERT INTO Products (name, description, price, stock) VALUES
@@ -22,7 +22,7 @@ INSERT INTO Products (name, description, price, stock) VALUES
 ('Adidas Ultraboost', 'Adidas Ultraboost Running Shoes - Black', 179.99, 60),
 ('Canon EOS R6', 'Canon EOS R6 Mirrorless Camera - 24.2MP', 2499.99, 10),
 ('Fitbit Charge 5', 'Fitbit Charge 5 Fitness Tracker', 149.99, 150),
-('GoPro HERO11', 'GoPro HERO11 Black Action Camera', 499.99, 40);
+('GoPro HERO11', 'GoPro HERO11 Black Action Camera', 499.99, 40)
 
 
 INSERT INTO Orders (user_id, total, order_date) VALUES
@@ -35,7 +35,7 @@ INSERT INTO Orders (user_id, total, order_date) VALUES
 (7, 799.99, '2023-09-25 12:30:44'),  -- David Brown buys iPhone 14
 (8, 179.99, '2023-09-26 14:10:05'),  -- Alice Green buys Adidas Ultraboost
 (9, 1199.99, '2023-09-27 15:47:19'), -- Ben Watson buys Dell XPS 13
-(10, 499.99, '2023-09-28 17:55:02'); -- Carla Mendes buys GoPro HERO11
+(10, 499.99, '2023-09-28 17:55:02') -- Carla Mendes buys GoPro HERO11
 
 
 INSERT INTO Order_Items (order_id, product_id, quantity, price) VALUES
@@ -49,8 +49,4 @@ INSERT INTO Order_Items (order_id, product_id, quantity, price) VALUES
 (7, 1, 1, 799.99),  -- David Brown buys 1 iPhone 14
 (8, 7, 1, 179.99),  -- Alice Green buys 1 Adidas Ultraboost
 (9, 4, 1, 1199.99), -- Ben Watson buys 1 Dell XPS 13
-(10, 10, 1, 499.99);-- Carla Mendes buys 1 GoPro HERO11
-
-
-select * from users_data
-select * from public.orders
+(10, 10, 1, 499.99)-- Carla Mendes buys 1 GoPro HERO11
