@@ -26,27 +26,27 @@ INSERT INTO Products (name, description, price, stock) VALUES
 
 
 INSERT INTO Orders (user_id, total, order_date) VALUES
-(1, 1599.98, '2023-09-21 14:35:22'), -- John Doe buys iPhone and MacBook
-(2, 149.99, '2023-09-22 10:12:45'),  -- Sara Smith buys Nike Air Max 90
-(3, 999.99, '2023-09-22 11:50:38'),  -- Michael King buys Samsung Galaxy S23
-(4, 299.99, '2023-09-23 09:23:11'),  -- Amanda White buys Sony Headphones
-(5, 2499.99, '2023-09-24 16:47:39'), -- Steve Jones buys Canon EOS R6
-(6, 149.99, '2023-09-25 10:00:00'),  -- Emily Jackson buys Fitbit Charge 5
-(7, 799.99, '2023-09-25 12:30:44'),  -- David Brown buys iPhone 14
-(8, 179.99, '2023-09-26 14:10:05'),  -- Alice Green buys Adidas Ultraboost
-(9, 1199.99, '2023-09-27 15:47:19'), -- Ben Watson buys Dell XPS 13
-(10, 499.99, '2023-09-28 17:55:02') -- Carla Mendes buys GoPro HERO11
+(1, 1599.98, '2023-09-21 14:35:22'), 
+(2, 149.99, '2023-09-22 10:12:45'),  
+(3, 999.99, '2023-09-22 11:50:38'),  
+(4, 299.99, '2023-09-23 09:23:11'),  
+(5, 2499.99, '2023-09-24 16:47:39'), 
+(6, 149.99, '2023-09-25 10:00:00'),  
+(7, 799.99, '2023-09-25 12:30:44'),  
+(8, 179.99, '2023-09-26 14:10:05'),  
+(9, 1199.99, '2023-09-27 15:47:19'), 
+(10, 499.99, '2023-09-28 17:55:02') 
 
 
 INSERT INTO Order_Items (order_id, product_id, quantity, price) VALUES
-(1, 1, 1, 799.99),  -- John Doe buys 1 iPhone 14
-(1, 5, 1, 1999.99), -- John Doe buys 1 MacBook Pro
-(2, 6, 1, 149.99),  -- Sara Smith buys 1 Nike Air Max 90
-(3, 2, 1, 999.99),  -- Michael King buys 1 Samsung Galaxy S23
-(4, 3, 1, 299.99),  -- Amanda White buys 1 Sony Headphones
-(5, 8, 1, 2499.99), -- Steve Jones buys 1 Canon EOS R6
-(6, 9, 1, 149.99),  -- Emily Jackson buys 1 Fitbit Charge 5
-(7, 1, 1, 799.99),  -- David Brown buys 1 iPhone 14
-(8, 7, 1, 179.99),  -- Alice Green buys 1 Adidas Ultraboost
-(9, 4, 1, 1199.99), -- Ben Watson buys 1 Dell XPS 13
-(10, 10, 1, 499.99)-- Carla Mendes buys 1 GoPro HERO11
+(1, 1, 1, 799.99),  
+(1, 5, 1, 1999.99), 
+(2, 6, 1, 149.99),  
+(3, 2, 1, 999.99),  
+(4, 3, 1, 299.99),  
+(5, 8, 1, 2499.99), 
+(6, 9, 1, 149.99),  
+(7, 1, 1, 799.99), 
+(8, 7, 1, 179.99),  
+(9, 4, 1, 1199.99),
+(10, 10, 1, 499.99)
