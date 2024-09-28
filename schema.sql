@@ -32,21 +32,6 @@ CREATE TABLE Order_Items (
 );
 
 
-INSERT INTO Users (username, password, email) VALUES
-('user1', 'password1', 'user1@example.com'),
-('user2', 'password2', 'user2@example.com');
-
-INSERT INTO Products (name, description, price, stock) VALUES
-('Product A', 'Description for Product A', 29.99, 100),
-('Product B', 'Description for Product B', 19.99, 50);
-
-INSERT INTO Orders (user_id, total) VALUES
-(1, 49.98);
-
-INSERT INTO Order_Items (order_id, product_id, quantity, price) VALUES
-(1, 1, 2, 29.99),
-(1, 2, 1, 19.99);
-
 
 
 
